@@ -1,0 +1,71 @@
+	*****************
+	| Maria DB	|
+	*****************
+Key: In a dbms key is constraint
+     that is either used to 
+     restrict, filter and link
+     two tables, for example:
+
+	1. Primary key:
+	
+	1 primary exist in a 
+	table, primary key 
+	attribute neither blank
+	not duplicate value.
+	
+	2. unique key: 
+	
+	More than one unique key
+	constraint can have in 
+	a table. It can be blank
+	but cant have duplicate
+	value.
+
+	3. Not Null : 
+	
+	More than one attribute
+	in a table can have not 
+	null constraint. It can
+	have duplicate value.
+
+	4. check :
+	
+	Used to check the value 
+	at a time of entry.
+
+	5. Default :
+	
+	used to assign default 
+	value in field.
+
+	6. Foreign Key :
+
+	More than one foreign 
+	key constraint can 
+	be used in a table to 
+	link two different 
+	tables.
+
+Note : A single logical data must
+       be seperated in a single
+       table to remove 
+       redundancy.
+
+		
+
+
+Sid	Sname	Dob	Phone	Email	Doa	cid
+H101	Ram	1/1/2000	676666	r@gmail.com
+12/7/24	P101
+H102	Shyam	2/7/1999	7777777	s@gmail.com
+15/6/24	P101
+
+
+
+
+
+cid	Cname	Cfee	Cduration
+P101	Python	12000	3 months
+P102	Java	15000 	2.5 months
+
+
